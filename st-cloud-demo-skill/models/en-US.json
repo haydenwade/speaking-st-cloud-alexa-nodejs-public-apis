@@ -1,0 +1,79 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "greeter",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "EarthQuakeTotalsIntent",
+          "slots": [
+              {
+                  "name": "companyname",
+                  "type": "tickersymbol"
+              }
+          ],
+          "samples": [
+              "price of {companyname}",
+              "price of {companyname} stock",
+              "how many earthquakes happened today",
+              "what is the total number of earthquakes"
+          ]
+        }
+      ],
+      "types": [
+        {
+            "name": "tickersymbol",
+            "values": [
+                {
+                    "name": {
+                        "value": "tsla",
+                        "synonyms": [
+                            "musk",
+                            "elon",
+                            "elon musk",
+                            "tesla"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "value": "aapl",
+                        "synonyms": [
+                            "apple inc",
+                            "apple incorporated ",
+                            "apple"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+    }
+  }
+}
