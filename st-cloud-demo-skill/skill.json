@@ -5,9 +5,9 @@
         "en-US": {
           "summary": "Sample Short Description",
           "examplePhrases": [
-            "Alexa open hello world",
-            "Alexa tell hello world hello",
-            "Alexa ask hello world say hello"
+            "Alexa open Mr. Fin",
+            "Alexa ask Mr. Fin the price of Tesla stock",
+            "Alexa ask Mr. Fin who the CEO of Apple is"
           ],
           "name": "st-cloud-demo-skill",
           "description": "Sample Full Description"

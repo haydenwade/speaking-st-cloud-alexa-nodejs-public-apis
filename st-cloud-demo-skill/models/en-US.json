@@ -31,7 +31,7 @@
           ]
         },
         {
-          "name": "EarthQuakeTotalsIntent",
+          "name": "StockPriceIntent",
           "slots": [
               {
                   "name": "companyname",
@@ -41,10 +41,53 @@
           "samples": [
               "price of {companyname}",
               "price of {companyname} stock",
-              "how many earthquakes happened today",
-              "what is the total number of earthquakes"
+              "what is the price of the stock",
+              "stock price for {companyname}"
           ]
-        }
+        },
+        {
+            "name": "CEOIntent",
+            "slots": [
+                {
+                    "name": "companyname",
+                    "type": "tickersymbol"
+                }
+            ],
+            "samples": [
+                "who is the ceo of {companyname}",
+                "ceo of {companyname}",
+                "who is the ceo"
+            ]
+          },
+          {
+            "name": "IndustryIntent",
+            "slots": [
+                {
+                    "name": "companyname",
+                    "type": "tickersymbol"
+                }
+            ],
+            "samples": [
+                "what industry is {companyname} in",
+                "{companyname} is in what industry",
+                "what industry is this in"
+            ]
+          },
+          {
+              "name": "TestMemoryIntent",
+              "samples":[
+                  "what company are we talking about",
+                  "what company is this"
+              ]
+          },
+          {
+            "name": "ForgetMemoryIntent",
+            "samples":[
+                "I don't want to talk about this anymore",
+                "Forget this company",
+                "I don't want to talk about this company anymore"
+            ]
+          }
       ],
       "types": [
         {
