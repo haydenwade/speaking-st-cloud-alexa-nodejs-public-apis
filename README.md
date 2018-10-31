@@ -1,5 +1,5 @@
 # speaking-st-cloud-alexa-nodejs-public-apis
-Sample Code for my presentation at the St. Cloud State University
+Completed Sample Code for my presentation at the St. Cloud State University
 
 ## Topics
 - Creating custom Alexa Skill
@@ -16,4 +16,12 @@ Sample Code for my presentation at the St. Cloud State University
 2. Install VS Code (Visual Studio Code) https://code.visualstudio.com/
 
 ## Helpful Commands
+- Create custom skill: `ask new`
 - Deploy: `ask deploy` - from skill directory
+
+
+## Helpful Links
+- Alexa developer console: https://developer.amazon.com/alexa/console/ask
+- AWS: https://console.aws.amazon.com/console/home?region=us-east-1
+- IEX Trading API: https://iextrading.com/developer/docs/#getting-started
+- npm request-promise: https://www.npmjs.com/package/request-promise

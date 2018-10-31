@@ -9,4 +9,5 @@
 1. Create new skill from ask cli `ask new`, `cd st-cloud-demo-skill` 
 a. Deploy it `ask deploy`
 b. Test to make sure everyone is here
-2. Create Fallback Intent
+2. Create Intents
+3. Give Skill a Memory
