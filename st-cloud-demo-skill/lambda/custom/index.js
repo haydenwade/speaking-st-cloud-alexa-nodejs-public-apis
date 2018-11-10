@@ -61,7 +61,7 @@ const CEOIntentHandler = {
       companyname = handlerInput.requestEnvelope.request.intent.slots.companyname.value;
     }
 
-    const info = JSON.parse(await StocksApi.getCompanyInfo(ticker));
+    const info = await StocksApi.getCompanyInfo(ticker);
 
     const speechText = `The ceo of ${companyname} is ${info.CEO}`;
 
@@ -89,7 +89,7 @@ const IndustryIntentHandler = {
       companyname = handlerInput.requestEnvelope.request.intent.slots.companyname.value;
     }
 
-    const info = JSON.parse(await StocksApi.getCompanyInfo(ticker));
+    const info = await StocksApi.getCompanyInfo(ticker);
 
     const speechText = `${companyname} is in the ${info.industry} industry`;
 
