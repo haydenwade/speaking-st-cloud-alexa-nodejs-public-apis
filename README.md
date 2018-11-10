@@ -4,7 +4,7 @@ Completed Sample Code for my presentation at the St. Cloud State University
 ## Topics
 - Creating custom Alexa Skill
 - AWS Lambda Function NodeJS
-- Consuming public APIs
+- Consuming 3rd party APIs
 
 
 ## Prerequisites
